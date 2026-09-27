@@ -1,0 +1,33 @@
+$
+lv("class","5S1")+
+lv("date",df(yyyy-MM-dd))+
+
+
+
+
+
+
+
+
+
+
+lv("class",tc(up,#class))+
+lv("args","{'__args': [null, {'date': 'datevar', 'mode': 'classes'}], '__gsh': '00000000'}")+
+lv("args",tc(reg,#args,',tc(utf,22)))+
+lv("args",tc(reg,#args,"datevar",#date))+
+lv("cmd","curl --request POST --url 'https://smjkcpagi.edupage.org/substitution/server/viewer.js?__func=getSubstViewerDayDataHtml' --data 'argsvar'")+
+lv("cmd",tc(reg,#cmd,"argsvar",#args))+
+lv("cmdout",sh(#cmd))+
+lv("cmdout",tc(reg,#cmdout,\\,""))+
+lv("cmdout",tc(reg,#cmdout,tc(utf,22),"'"))+
+lv("narrow","(.*classvar<\/span><\/div><div class=\'rows\'>)|(<\/div><\/div><\/div>.*)")+
+lv("narrow",tc(reg,#narrow,"classvar",#class))+
+lv("newline","(<div class='row (absent|change|remove)'><div class='period'><span class='print-font-resizable'>)")+
+lv("split","(<\/span><\/div><div class='info'><span class='print-font-resizable'>)")+
+lv("clear","(<\/div>)|(<\/span>)|( - Substitution.*)|(<img.*\/>)|(^\n)")+
+lv("cmdout",tc(reg,#cmdout,#narrow,""))+
+lv("cmdout",tc(reg,#cmdout,#newline,tc(utf,a)))+
+lv("cmdout",tc(reg,#cmdout,#split,":"))+
+lv("cmdout",tc(reg,#cmdout,#clear,""))+
+if(tc(cut,#cmdout,4)="{'r'","",#cmdout)
+$

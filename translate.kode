@@ -1,0 +1,22 @@
+$
+lv(subject,tc(reg,#subject,LELAKI,BOY))+
+lv(subject,tc(reg,#subject,PEREMPUAN,GIRL))+
+lv(subject,tc(reg,#subject,PENDIDIKAN JASMANI DAN PENDIDIKAN KESIHATAN,PJK))+
+lv(subject,tc(reg,#subject,MATEMATIK TAMBAHAN,ADDMATH))+
+lv(subject,tc(reg,#subject,MATEMATIK,MATH))+
+lv(subject,tc(reg,#subject,SAINS,SCIENCE))+
+lv(subject,tc(reg,#subject,PENDIDIKAN MORAL,MORAL))+
+lv(subject,tc(reg,#subject,PENDIDIKAN ISLAM,ISLAM))+
+lv(subject,tc(reg,#subject,GEOGRAFI,GEOGRAPHY))+
+lv(subject,tc(reg,#subject,BAHASA MELAYU,MALAY))+
+lv(subject,tc(reg,#subject,EKONOMI,ECONOMY))+
+lv(subject,tc(reg,#subject,SEJARAH,HISTORY))+
+lv(subject,tc(reg,#subject,PENDIDIKAN SENI VISUAL,ART))+
+lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,RBT))+
+lv(subject,tc(reg,#subject,BAHASA CINA,CHINESE))+
+lv(subject,tc(reg,#subject,KESUSASTERAAN CINA,CHINESE LITERATURE))+
+lv(subject,tc(reg,#subject,BIOLOGI,BIOLOGY))+
+lv(subject,tc(reg,#subject,FIZIK,PHYSIC))+
+lv(subject,tc(reg,#subject,PRINSIP PERAKAUNAN,ACCOUNT))+
+#subject
+$
