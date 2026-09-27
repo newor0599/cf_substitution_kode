@@ -13,6 +13,7 @@ lv(subject,tc(reg,#subject,EKONOMI,ECONOMY))+
 lv(subject,tc(reg,#subject,SEJARAH,HISTORY))+
 lv(subject,tc(reg,#subject,PENDIDIKAN SENI VISUAL,ART))+
 lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,RBT))+
+lv(subject,tc(reg,#subject,ASAS SAINS KOMPUTER,ASK))+
 lv(subject,tc(reg,#subject,BAHASA CINA,CHINESE))+
 lv(subject,tc(reg,#subject,KESUSASTERAAN CINA,CHINESE LITERATURE))+
 lv(subject,tc(reg,#subject,BIOLOGI,BIOLOGY))+

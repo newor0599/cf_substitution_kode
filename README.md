@@ -12,6 +12,7 @@ Use this script to easily fetch substitution data for you class!
 
 - [Requirements](#requirements)
 - [Script usage](#usage)
+- [Troublueshoot](#troublueshoot)
 - [Flow usage explanation](#why-use-flow)
 - [Contribution](#contribution)
 
@@ -41,9 +42,23 @@ lv("date",df(yyyy-MM-dd))+
 4. The script returns nothings when there is no substitution for the day
 5. _(Optional)_ Use the `translate.kode` to have the data return in English
 
+## Troubleshoot
+
+1. The script returns nothing when there's no substitution
+2. Make sure your connected to the internet
+3. Make sure you configure the script to target your class
+4. Make sure [curl is available on your device](#how-to-check-if-curl-is-available)
+
+**How to check if curl is available**
+You can check by writing this formula
+```
+$sh("curl")$
+```
+It should return something like `curl: try 'curl --help' for more information`
+
 ## Why use flow
 
-1. **Rate limiting.** The script sends new request to the [school's EduPage server](https://smjkcpagi.edupage.org/substitution). Frequent requests may get your device temporarily blocked. 
+1. **Rate limiting.** The script sends new request to the [school's EduPage server](https://smjkcpagi.edupage.org/substitution). Frequent requests may get your device temporarily blocked.
 2. **Battery drain.** A network request on each tick keeps the radio on and drains the battery quickly.
 3. **Network usage.** Each fetch is ~14 KB. Network usage adds up across a day on each widget refresh.
 

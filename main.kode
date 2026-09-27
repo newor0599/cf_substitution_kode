@@ -29,5 +29,6 @@ lv("cmdout",tc(reg,#cmdout,#narrow,""))+
 lv("cmdout",tc(reg,#cmdout,#newline,tc(utf,a)))+
 lv("cmdout",tc(reg,#cmdout,#split,":"))+
 lv("cmdout",tc(reg,#cmdout,#clear,""))+
+lv("cmdout",tc(reg,#cmdout," - ","-"))+
 if(tc(cut,#cmdout,4)="{'r'","",#cmdout)
 $
