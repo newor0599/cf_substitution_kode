@@ -16,7 +16,7 @@ Use this script to easily fetch substitution data for you class!
 - [Contribution](#contribution)
 
 
-<img src="assets/widget.jpeg" alt="Widget preview" width="300">
+<img src="assets/preview.png" alt="Widget preview" width="300">
 
 ## Requirements
 
