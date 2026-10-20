@@ -27,6 +27,13 @@ Use this script to easily fetch substitution data for you class!
 
 ## Usage
 
+### Usage 1
+1. Copy the content of example_flow.clip
+2. Paste the content to the kustom's flow tab
+3. Use the output of the script from global variable "outs"
+
+### Usage 2
+
 1. Copy the content of `main.kode`
 2. Paste the text into a [flow](#why-use-flow) formula
 3. You can configure your class by editing the class local variable
