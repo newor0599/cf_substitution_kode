@@ -29,7 +29,7 @@ Use this script to easily fetch substitution data for you class!
 
 ### Usage 1
 1. Copy the content of example_flow.clip
-2. Paste the content to the kustom's flow tab
+2. Paste the content to the kustom's [flow](#why-use-flow) tab
 3. You can configure your class by editing the class local variable
 ```
 lv("class","5S1" <--- Edit your class here)+ 
