@@ -1,4 +1,5 @@
 $
+lv(subject,tc(reg,gv(outs),".*:",""))+
 lv(subject,tc(reg,#subject,LELAKI,BOY))+
 lv(subject,tc(reg,#subject,PEREMPUAN,GIRL))+
 lv(subject,tc(reg,#subject,PENDIDIKAN JASMANI DAN PENDIDIKAN KESIHATAN,PJK))+
