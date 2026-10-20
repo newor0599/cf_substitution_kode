@@ -1,0 +1,23 @@
+$
+lv(subject,tc(reg,#subject,LELAKI,男))+
+lv(subject,tc(reg,#subject,PEREMPUAN,女))+
+lv(subject,tc(reg,#subject,PENDIDIKAN JASMANI DAN PENDIDIKAN KESIHATAN,體育))+
+lv(subject,tc(reg,#subject,MATEMATIK TAMBAHAN,進階數學))+
+lv(subject,tc(reg,#subject,MATEMATIK,數學))+
+lv(subject,tc(reg,#subject,SAINS,科學))+
+lv(subject,tc(reg,#subject,PENDIDIKAN MORAL,道德))+
+lv(subject,tc(reg,#subject,PENDIDIKAN ISLAM,伊斯蘭教育))+
+lv(subject,tc(reg,#subject,GEOGRAFI,地理))+
+lv(subject,tc(reg,#subject,BAHASA MELAYU,馬來文))+
+lv(subject,tc(reg,#subject,EKONOMI,經濟))+
+lv(subject,tc(reg,#subject,SEJARAH,歷史))+
+lv(subject,tc(reg,#subject,PENDIDIKAN SENI VISUAL,美術))+
+lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,設計與科技))+
+lv(subject,tc(reg,#subject,ASAS SAINS KOMPUTER,電腦科學基礎))+
+lv(subject,tc(reg,#subject,BAHASA CINA,華語))+
+lv(subject,tc(reg,#subject,KESUSASTERAAN CINA,文學))+
+lv(subject,tc(reg,#subject,BIOLOGI,生物學))+
+lv(subject,tc(reg,#subject,FIZIK,物理))+
+lv(subject,tc(reg,#subject,PRINSIP PERAKAUNAN,會計))+
+#subject
+$

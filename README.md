@@ -67,6 +67,7 @@ A Flow decouples the fetch from the display: the data is fetched only when you t
 ## Contribution
 
 Contributions are welcome. You can:
+- Submit a new/change translation language
 - Open a new issue for suggestions or bug report
 - Open a pull request on GitHub.
 - Email a patch to **rowen778623@gmail.com**.
