@@ -12,7 +12,7 @@ lv(subject,tc(reg,#subject,BAHASA MELAYU,馬來文))+
 lv(subject,tc(reg,#subject,EKONOMI,經濟))+
 lv(subject,tc(reg,#subject,SEJARAH,歷史))+
 lv(subject,tc(reg,#subject,PENDIDIKAN SENI VISUAL,美術))+
-lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,設計與科技))+
+lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,設計與工藝))+
 lv(subject,tc(reg,#subject,ASAS SAINS KOMPUTER,電腦科學基礎))+
 lv(subject,tc(reg,#subject,BAHASA CINA,華語))+
 lv(subject,tc(reg,#subject,KESUSASTERAAN CINA,文學))+
