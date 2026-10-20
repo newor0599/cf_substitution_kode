@@ -1,0 +1,49 @@
+##KUSTOMCLIP##
+{
+  "clip_version": 1,
+  "KUSTOM_FLOW": {
+    "FkbhTD76": {
+      "id": "FkbhTD76",
+      "name": "trigger substitution",
+      "t": [
+        {
+          "id": "TTZsMgcY",
+          "type": "T_MANUAL"
+        }
+      ],
+      "a": [
+        {
+          "id": "TAUihpAY",
+          "type": "A_FORMULA",
+          "params": {
+            "formula": "$\nlv(\"class\",gv(class))+\nlv(\"date\",df(yyyy-MM-dd))+\n\n\n\n\n\n\n\n\n\n\nlv(\"class\",tc(up,#class))+\nlv(\"args\",\"{\u0027__args\u0027: [null, {\u0027date\u0027: \u0027datevar\u0027, \u0027mode\u0027: \u0027classes\u0027}], \u0027__gsh\u0027: \u002700000000\u0027}\")+\nlv(\"args\",tc(reg,#args,\u0027,tc(utf,22)))+\nlv(\"args\",tc(reg,#args,\"datevar\",#date))+\nlv(\"cmd\",\"curl --request POST --url \u0027https://smjkcpagi.edupage.org/substitution/server/viewer.js?__func\u003dgetSubstViewerDayDataHtml\u0027 --data \u0027argsvar\u0027 -H \u0027Cache-Control: no-cache\u0027\")+\nlv(\"cmd\",tc(reg,#cmd,\"argsvar\",#args))+\nlv(\"cmdout\",sh(#cmd))+\nlv(\"cmdout\",tc(reg,#cmdout,\\\\,\"\"))+\nlv(\"cmdout\",tc(reg,#cmdout,tc(utf,22),\"\u0027\"))+\nlv(\"narrow\",\"(.*classvar\u003c\\/span\u003e\u003c\\/div\u003e\u003cdiv class\u003d\\\u0027rows\\\u0027\u003e)|(\u003c\\/div\u003e\u003c\\/div\u003e\u003c\\/div\u003e.*)\")+\nlv(\"narrow\",tc(reg,#narrow,\"classvar\",#class))+\nlv(\"newline\",\"(\u003cdiv class\u003d\u0027row (absent|change|remove)\u0027\u003e\u003cdiv class\u003d\u0027period\u0027\u003e\u003cspan class\u003d\u0027print-font-resizable\u0027\u003e)\")+\nlv(\"split\",\"(\u003c\\/span\u003e\u003c\\/div\u003e\u003cdiv class\u003d\u0027info\u0027\u003e\u003cspan class\u003d\u0027print-font-resizable\u0027\u003e)\")+\nlv(\"clear\",\"(\u003c\\/div\u003e)|(\u003c\\/span\u003e)|( - Substitution.*)|(\u003cimg.*\\/\u003e)|(^\\n)\")+\nlv(\"cmdout\",tc(reg,#cmdout,#narrow,\"\"))+\nlv(\"cmdout\",tc(reg,#cmdout,#newline,tc(utf,a)))+\nlv(\"cmdout\",tc(reg,#cmdout,#split,\":\"))+\nlv(\"cmdout\",tc(reg,#cmdout,#clear,\"\"))+\nlv(\"cmdout\",tc(reg,#cmdout,\" - \",\"-\"))+\nlv(\"cmdout\",tc(reg,#cmdout,\"\\-\\([^\\n]+\",\"\"))+\nif(tc(cut,#cmdout,4)\u003d\"{\u0027r\u0027\",\"\",#cmdout)\n$\n"
+          }
+        },
+        {
+          "id": "TApeRwdx",
+          "type": "A_GLOBAL",
+          "params": {
+            "store_mode": "TEXT",
+            "global": "outs"
+          }
+        },
+        {
+          "id": "TAd5VOtD",
+          "type": "A_FORMULA",
+          "params": {
+            "formula": "$df(d.M.yyyy h:mm)$"
+          }
+        },
+        {
+          "id": "TAW9HPCf",
+          "type": "A_GLOBAL",
+          "params": {
+            "store_mode": "TEXT",
+            "global": "sub upd"
+          }
+        }
+      ]
+    }
+  }
+}
+##KUSTOMCLIP##
