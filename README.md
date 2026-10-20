@@ -30,7 +30,19 @@ Use this script to easily fetch substitution data for you class!
 ### Usage 1
 1. Copy the content of example_flow.clip
 2. Paste the content to the kustom's flow tab
-3. Use the output of the script from global variable "outs"
+3. You can configure your class by editing the class local variable
+```
+lv("class","5S1" <--- Edit your class here)+ 
+lv("date",df(yyyy-MM-dd))+
+```
+example
+```
+lv("class","3 ADIL")+ 
+lv("date",df(yyyy-MM-dd))+
+```
+4. The script returns nothings when there is no substitution for the day
+5. Use the output of the script from global variable "outs"
+6. _(Optional)_ Use the scripts in `translations` to have the data return in different language
 
 ### Usage 2
 
@@ -47,7 +59,7 @@ lv("class","3 ADIL")+
 lv("date",df(yyyy-MM-dd))+
 ```
 4. The script returns nothings when there is no substitution for the day
-5. _(Optional)_ Use the `translate.kode` to have the data return in English
+6. _(Optional)_ Use the scripts in `translations` to have the data return in different language
 
 ## Troubleshoot
 
