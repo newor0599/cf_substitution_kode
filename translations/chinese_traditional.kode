@@ -15,9 +15,11 @@ lv(subject,tc(reg,#subject,PENDIDIKAN SENI VISUAL,美術))+
 lv(subject,tc(reg,#subject,REKA BENTUK DAN TEKNOLOGI,設計與工藝))+
 lv(subject,tc(reg,#subject,ASAS SAINS KOMPUTER,電腦科學基礎))+
 lv(subject,tc(reg,#subject,BAHASA CINA,華語))+
+lv(subject,tc(reg,#subject,BAHASA INGGERIS,英文))+
 lv(subject,tc(reg,#subject,KESUSASTERAAN CINA,文學))+
 lv(subject,tc(reg,#subject,BIOLOGI,生物學))+
 lv(subject,tc(reg,#subject,FIZIK,物理))+
+lv(subject,tc(reg,#subject,KIMIA,化學))+
 lv(subject,tc(reg,#subject,PRINSIP PERAKAUNAN,會計))+
 #subject
 $
